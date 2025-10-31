@@ -1,0 +1,31 @@
+// Save File for STEM
+// Version 1.11
+
+// State Format: name x y start accept
+STATES:
+	0 307.142857 407.142857 true false 0.980392 0.980392 0.823529 1.000000
+	1 405.714286 407.142857 false false 0.980392 0.980392 0.823529 1.000000
+	2 408.571429 482.857143 false false 0.980392 0.980392 0.823529 1.000000
+	3 410.000000 558.571429 false false 0.980392 0.980392 0.823529 1.000000
+
+// Transition format: fromStateId toStateId readChar writeChar moveDirection
+// The Character '~' is the catchall character
+TRANSITION:
+	0 1 w a RIGHT
+
+// Tape format: tapeChar(0) tapeChar(1) ... tapeChar(n)
+TAPE:
+	0
+	
+// Comment format: text:x:y
+COMMENTS:
+// Comments End
+// Comment box format: x:y:width:height:color
+COMMENT BOXES:
+	100.000000:95.714286:378.571429:141.428571:0x26e052ff
+	468.571429:225.714286:10.000000:15.714286:0x179762ff
+	101.428571:112.857143:1242.857143:185.714286:0xbf5252ff
+	82.857143:68.571429:2482.857143:275.714286:0x3f46f1ff
+// Comment Box End
+
+Start Triangle Position:0

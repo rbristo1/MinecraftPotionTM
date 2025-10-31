@@ -1,0 +1,61 @@
+Brewing Ingredients:
+Nether Wart = N
+Redstone Dust = R
+Glowstone Dust = G
+Fermented Spider Eye = F
+Gunpowder = U
+Dragon's Breath = D
+Sugar = S
+Rabbit's Foot = A
+Glistering Melon = L
+Spider Eye = E
+Blaze Powder = B
+Ghast Tear = T
+Pufferfish = P
+Magma Cream = M
+Turtle Shell = H
+Phantom Membrane = O
+Breeze Rod = Z
+Stone = C
+Cobweb = W
+Slime Block = K
+
+Effects:
+Water = w
+Awkward = a
+Mundane = m
+Thick = t
+Healing = h
+Fire Resistance = f
+Regeneration = r
+Strength = s
+Swiftness = i
+Night Vision = n
+Invisibility = y
+Water Breathing = b
+Leaping = l
+Slow Falling = o
+Poison = p
+Weakness = k
+Harming = g
+Slowness = c
+Oozing = z
+Weaving = v
+Infestation = e
+Wind Charging = d
+Turtle Master = u
+
+Delivery Methods:
+drink = ɗ
+splash = ß
+lingering = ļ
+
+Enhancements:
+default = 1
+increased level = 2
+increased duration = +
+
+
+
+
+Σ = {A, B, C, D, E, F, G, H, K, L, M, N, O, P, R, S, T, U, W, Z, a, b, c, d, e, f, g, h, i, k, l, m, n, o, p, r, s, t, u, v, w, y, z, ɗ, ß, ļ, 1, 2, +}
