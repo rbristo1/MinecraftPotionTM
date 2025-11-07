@@ -13,6 +13,7 @@ Input a tape in the following format from the Language specified below:
 5. End tape with _ or the turing machine wont exit properly.
 
 If inputted ingredient list cannot be brewed together, then the Turing Machine exits unsuccessfully.  
+    
 Example inputs and outputs are provided at the bottom of this file.   
 
 ## Language:
