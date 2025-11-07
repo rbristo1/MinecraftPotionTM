@@ -1,24 +1,24 @@
-Brewing Ingredients:
-Nether Wart = N
-Redstone Dust = R
-Glowstone Dust = G
-Fermented Spider Eye = F
-Gunpowder = U
-Dragon's Breath = D
-Sugar = S
-Rabbit's Foot = A
-Glistering Melon = L
-Spider Eye = E
-Blaze Powder = B
-Ghast Tear = T
-Pufferfish = P
-Magma Cream = M
-Turtle Shell = H
-Phantom Membrane = O
-Breeze Rod = Z
-Stone = C
-Cobweb = W
-Slime Block = K
+Brewing Ingredients (Numbered By State):
+10. Nether Wart = N
+5. Redstone Dust = R
+6. Glowstone Dust = G
+9. Fermented Spider Eye = F
+7. Gunpowder = U
+8. Dragon's Breath = D
+11. Sugar = S
+12. Rabbit's Foot = A
+13. Glistering Melon = L
+14. Spider Eye = E
+15. Blaze Powder = B
+16. Ghast Tear = T
+17. Pufferfish = P
+18. Magma Cream = M
+19. Turtle Shell = H
+20. Phantom Membrane = O
+21. Breeze Rod = Z
+22. Stone = C
+23. Cobweb = W
+24. Slime Block = K
 
 Effects:
 Water = w
