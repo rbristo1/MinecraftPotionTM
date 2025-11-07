@@ -1,10 +1,10 @@
 Brewing Ingredients (Numbered By State):
-10. Nether Wart = N
-5. Redstone Dust = R
-6. Glowstone Dust = G
-9. Fermented Spider Eye = F
-7. Gunpowder = U
-8. Dragon's Breath = D
+5. Nether Wart = N
+6. Redstone Dust = R
+7. Glowstone Dust = G
+8. Fermented Spider Eye = F
+9. Gunpowder = U
+10. Dragon's Breath = D
 11. Sugar = S
 12. Rabbit's Foot = A
 13. Glistering Melon = L
