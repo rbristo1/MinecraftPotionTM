@@ -1,7 +1,7 @@
 # MinecraftPotionTM
 
 ## Description:
-Uses a user inputted list of ingredients as well as a starting potion to compute the final potion result using a turing machine.
+Uses a user inputted list of ingredients as well as a starting potion to compute the final potion result using a Turing Machine.
 
 ## Instructions:
 Input a tape in the following format from the Language specified below:
