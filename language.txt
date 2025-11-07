@@ -55,7 +55,10 @@ default = 1
 increased level = 2
 increased duration = +
 
+Utility:
+Pointer = |
+Empty = _
 
+Always add a _ at the end of the tape
 
-
-Σ = {A, B, C, D, E, F, G, H, K, L, M, N, O, P, R, S, T, U, W, Z, a, b, c, d, e, f, g, h, i, k, l, m, n, o, p, r, s, t, u, v, w, y, z, ^, &, *, 1, 2, +}
+Σ = {A, B, C, D, E, F, G, H, K, L, M, N, O, P, R, S, T, U, W, Z, a, b, c, d, e, f, g, h, i, k, l, m, n, o, p, r, s, t, u, v, w, y, z, ^, &, *, 1, 2, +, _, |}
