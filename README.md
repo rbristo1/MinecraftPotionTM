@@ -13,32 +13,7 @@ Input a tape in the following format from the Language specified below:
 5. End tape with _ or the turing machine wont exit properly.
 
 If inputted ingredient list cannot be brewed together, then the Turing Machine exits unsuccessfully.  
-#### Example Input #1:
-w^1NSFG_   
-This brews Water Bottle -> Nether Wart -> Sugar -> Fermented Spider Eye -> Glowstone Dust   
-#### Example Output #1:
-c^2_____ -> (Success) Potion of Slowness 2   
-#### Example Input #2:
-w^1_   
-This brews a Water Bottle with nothing else   
-#### Example Output #2:
-w^1_ -> (Success) Water Bottle   
-#### Example Input #3:
-w^1GB_   
-This brews Water Bottle -> Glowstone Dust -> Blaze Powder   
-#### Example Output #3:
-t^1_|_ -> (Fail)   
-Water Bottle -> Glowstone Dust yields a Thick Potion which cannot be combined with Blaze Powder, so it exits unsuccessfully.   
-#### Example Input #4:
-w^1NSFGUD_   
-This brews Water Bottle -> Nether Wart -> Sugar -> Fermented Spider Eye -> Glowstone Dust -> Gunpowder -> Dragon's Breath   
-#### Example Output #4:
-c*2_____ -> (Success) Lingering Potion of Slowness 2   
-#### Example Input #5:
-c*1G_   
-This brews Lingering Potion of Slowness 1 -> Glowstone   
-#### Example Output #5:
-c*2_____ -> (Success) Lingering Potion of Slowness 2   
+Example inputs and outputs are provided at the bottom of this file.   
 
 ## Language:
 #### Accepted Characters:
@@ -104,3 +79,51 @@ Increased Duration = +
 #### Utility:
 Ingredient Head Pointer = |   
 Empty = _   
+
+## Examples:
+#### Example Input #1:
+```
+w^1NSFG_   
+# This brews Water Bottle -> Nether Wart -> Sugar -> Fermented Spider Eye -> Glowstone Dust   
+```
+#### Example Output #1:
+```
+c^2_____ -> (Success) Potion of Slowness 2
+```
+#### Example Input #2:
+```
+w^1_   
+# This brews a Water Bottle with nothing else
+```
+#### Example Output #2:
+```
+w^1_ -> (Success) Water Bottle
+```
+#### Example Input #3:
+```
+w^1GB_   
+# This brews Water Bottle -> Glowstone Dust -> Blaze Powder
+```
+#### Example Output #3:
+```
+t^1_|_ -> (Fail)   
+# Water Bottle -> Glowstone Dust yields a Thick Potion which cannot be combined with Blaze Powder, so it exits unsuccessfully.
+``` 
+#### Example Input #4:
+```
+w^1NSFGUD_   
+# This brews Water Bottle -> Nether Wart -> Sugar -> Fermented Spider Eye -> Glowstone Dust -> Gunpowder -> Dragon's Breath
+```
+#### Example Output #4:
+```
+c*2_____ -> (Success) Lingering Potion of Slowness 2
+```
+#### Example Input #5:
+```
+c*1G_   
+# This brews Lingering Potion of Slowness 1 -> Glowstone
+```
+#### Example Output #5:
+```
+c*2_____ -> (Success) Lingering Potion of Slowness 2
+```
