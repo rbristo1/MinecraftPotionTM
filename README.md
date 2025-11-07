@@ -1,7 +1,12 @@
 # MinecraftPotionTM
 
 ## Description:
-Uses a user inputted list of ingredients as well as a starting potion to compute the final potion result using a Turing Machine.
+Using a tape containing a input string of potion ingredients as well as a starting potion, we must compute the minecraft potion that results from the provided ingredients using a Turing Machine.  
+   
+The Turing Machine must accurately follow this brewing tree:   
+<img width="1024" height="2117" alt="image" src="https://github.com/user-attachments/assets/80f34817-27dd-4587-8c3c-287cb7bfa7ce" />
+
+
 
 ## Instructions:
 Input a tape in the following format from the Language specified below:
