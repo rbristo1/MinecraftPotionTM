@@ -6,11 +6,11 @@ Uses a user inputted list of ingredients as well as a starting potion to compute
 ## Instructions:
 Input a tape in the following format from the Language specified below:
 
-1. Starting potion effect (use water for starting from scratch)
+1. Starting potion effect (use water to start from scratch)
 2. Starting potion "delivery method" (drinking, splash, lingering)
 3. Starting potion enhancement modifier (use 1 for intermediate products such as Water Bottles, Awkward Potions, Thick Potions, or Mundane Potions)
 4. N ≥ 0 number of potion ingredients
-5. End tape with _ or the turing machine wont exit properly.
+5. End tape with _
 
 If inputted ingredient list cannot be brewed together, then the Turing Machine exits unsuccessfully.  
     
