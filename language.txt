@@ -19,6 +19,7 @@ Brewing Ingredients (Numbered By State):
 22. Stone = C
 23. Cobweb = W
 24. Slime Block = K
+25. Golden Carrot = V
 
 Effects:
 Water = w
@@ -61,4 +62,4 @@ Empty = _
 
 Always add a _ at the end of the tape
 
-Σ = {A, B, C, D, E, F, G, H, K, L, M, N, O, P, R, S, T, U, W, Z, a, b, c, d, e, f, g, h, i, k, l, m, n, o, p, r, s, t, u, v, w, y, z, ^, &, *, 1, 2, +, _, |}
+Σ = {A, B, C, D, E, F, G, H, K, L, M, N, O, P, R, S, T, U, V, W, Z, a, b, c, d, e, f, g, h, i, k, l, m, n, o, p, r, s, t, u, v, w, y, z, ^, &, *, 1, 2, +, _, |}

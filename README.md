@@ -23,7 +23,7 @@ Example inputs and outputs are provided at the bottom of this file.
 
 ## Language:
 #### Accepted Characters:
-Σ = {A, B, C, D, E, F, G, H, K, L, M, N, O, P, R, S, T, U, W, Z, a, b, c, d, e, f, g, h, i, k, l, m, n, o, p, r, s, t, u, v, w, y, z, ^, &, *, 1, 2, +, _, |}
+Σ = {A, B, C, D, E, F, G, H, K, L, M, N, O, P, R, S, T, U, V, W, Z, a, b, c, d, e, f, g, h, i, k, l, m, n, o, p, r, s, t, u, v, w, y, z, ^, &, *, 1, 2, +, _, |}
 
 #### Brewing Ingredients:
 Nether Wart = N   
@@ -46,6 +46,7 @@ Breeze Rod = Z
 Stone = C    
 Cobweb = W   
 Slime Block = K   
+Golden Carrot = V   
 
 #### Effects:
 Water = w    

@@ -38,6 +38,7 @@ STATES:
 	116 1484.570891 563.281599 false false 0.980392 0.980392 0.823529 1.000000
 	117 1326.021034 457.783257 false false 0.980392 0.980392 0.823529 1.000000
 	118 1461.479183 436.566920 false false 0.980392 0.980392 0.823529 1.000000
+	119 1101.194636 1997.459413 false false 0.980392 0.980392 0.823529 1.000000
 
 // Transition format: fromStateId toStateId readChar writeChar moveDirection
 // The Character '~' is the catchall character
@@ -293,11 +294,23 @@ TRANSITION:
 	117 118 ~ ~ RIGHT
 	118 27 1 + RIGHT
 	118 26 ~ ~ STAY
+	0 119 V | LEFT
+	119 26 ~ ~ STAY
+	119 119 _ _ LEFT
+	119 119 * * LEFT
+	119 119 & & LEFT
+	119 119 ^ ^ LEFT
+	119 119 + + LEFT
+	119 119 1 1 LEFT
+	119 119 2 2 LEFT
+	119 27 w m RIGHT
+	119 27 a n RIGHT
+	8 27 n y RIGHT
 
 // Tape format: tapeChar(0) tapeChar(1) ... tapeChar(n)
 TAPE:
-	6
-	c^1____
+	7
+	y^+_____
 // Comment format: text:x:y
 COMMENTS:
 // Comments End
